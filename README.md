@@ -7,6 +7,7 @@ Instructions:
     2. Ensure that your queries are efficient and utilize the appropriate BigQuery functions and techniques.
     3. Submit the SQL scripts along with any explanations or comments you think are necessary to understand your approach.
     4. You will need to use the table below to answer all tests: bigquery-public-data.new_york_taxi_trips.tlc_yellow_trips_2022
+    
 Problem 1: Analyzing Popular Pickup Locations
 Objective: Identify the top 5 most popular pickup locations based on the total number of trips. Provide the total number of trips for each of these locations.
 Instructions:
@@ -15,11 +16,6 @@ Instructions:
 Expected Output:
     • pickup_location_id
     • total_trips
-
-
-
-
-
 
 Problem 2: Calculating Average Trip Distance per Hour
 Objective: Calculate the average trip distance for each hour of the day.
