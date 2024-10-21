@@ -2,8 +2,9 @@ import hashlib
 import os
 from dotenv import load_dotenv
 
-# Loads environment variables from .env file
-load_dotenv()
+# Finds and loads .env file with API Keys for security
+env_path = os.path.join(os.path.dirname(__file__), 'keys.env')
+load_dotenv(env_path)
 
 # Defines timestamp
 ts = '1'
